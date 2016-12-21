@@ -1,5 +1,9 @@
+require 'spec_helper'
 require 'rails_helper'
 
 RSpec.describe "welcome/index.html.haml", type: :view do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "displays Welcome text" do
+    render
+    expect(rendered).to match "Welcome to the finance tracker app"
+  end
 end
