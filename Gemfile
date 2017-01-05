@@ -17,8 +17,11 @@ gem 'coffee-rails', '~> 4.2'
 gem 'haml'
 #devise
 gem 'devise'
+#twitter bootstrap
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+#stocks prices
+gem "stock_quote"
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
