@@ -7,6 +7,8 @@
       %div{ :class => "col-md-2" }
         = button_tag(type: :submit, class: 'btn btn-lg btn-success') do 
           %i{ :class => "fa fa-search" } Look up a stock
+  
+  = render 'common/spinner'
 
   - if @stock
     %div{ :id => "stock-lookup-results", :class => "well results-block" }
